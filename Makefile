@@ -20,4 +20,4 @@ fmt:
 
 .PHONY: lint
 lint:
-	${tool_bin}/golangci-lint run --allow-parallel-runners
+	${tool_bin}/golangci-lint run --allow-parallel-runners -c ./.golangci.yml
